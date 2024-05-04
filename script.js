@@ -21,5 +21,5 @@ const makeChange = (c) => {
 };
 
 // Do not the change the code below
-const c = promp("Enter c: ");
+const c = prompt("Enter c: ");
 alert(JSON.stringify(makeChange(c)));
